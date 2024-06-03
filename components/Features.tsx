@@ -47,7 +47,7 @@ const FeatureItem = ({ title, icon, description }:FeatureItem) =>{
     <li className="flex w-full flex-1 flex-col items-start">
       <div className='rounded-full p-4 lg:p-7 bg-green-50'>
         <Image
-        src={./icon}
+        src={icon}
         alt='map'
         width={28}
         height={28}
