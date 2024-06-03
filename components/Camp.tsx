@@ -31,7 +31,7 @@ const CampSite = ({backgroundImage, title, Subtitle, peoplejoined}:CampProps) =>
             {PEOPLE_URL.map((url) => (
               <Image
               className="inline-block h-10 w-10 rounded-full"
-              src={url}
+              src={./url}
               key={url}
               alt="person"
               width={52}
