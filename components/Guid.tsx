@@ -21,7 +21,7 @@ const Guid = () => {
       </div>
       <div className="flexCenter max-container relative w-full">
         <Image
-        src={"./boat.png"}
+        src={'./boat.png'}
         alt='boat'
         width={1440}
         height={580}
