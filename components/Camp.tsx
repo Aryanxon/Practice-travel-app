@@ -38,7 +38,6 @@ const CampSite = ({backgroundImage, title, Subtitle, peoplejoined}:CampProps) =>
               height={53}
               />
             ))  
-
             }
           </span>
           <p className="bold-16 md:bold-20 text-white">{peoplejoined}</p>
