@@ -48,17 +48,17 @@ const CampSite = ({backgroundImage, title, Subtitle, peoplejoined}:CampProps) =>
   )
 }
 
-const Camp = () => {  
+const Camp = (a="./img-1.png", b="./img-2.png") => {  
   return (
     <section className="2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20">
       <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h[640px]">
         <CampSite
-        backgroundImage="bg-bg-img-1.png"
+        backgroundImage="bg-bg-a"
         title="Putuk Truno Camp"
         Subtitle="Prigrn Pasuruan"
         peoplejoined="50+ Joined"/>
         <CampSite
-        backgroundImage="bg-bg-img-2.png"
+        backgroundImage="bg-bg-b"
         title="Mountain View"
         Subtitle="Prigrn Pasuruan"
         peoplejoined="60+ Joined"/>
