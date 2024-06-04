@@ -58,7 +58,7 @@ const Camp = () => {
         Subtitle="Prigrn Pasuruan"
         peoplejoined="50+ Joined"/>
         <CampSite
-        backgroundImage="bg-bg-img-2.png"
+        backgroundImage="./img-2.png"
         title="Mountain View"
         Subtitle="Prigrn Pasuruan"
         peoplejoined="60+ Joined"/>
