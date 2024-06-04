@@ -15,6 +15,7 @@ export const NAV_LINKS = [
     './person-4.png',
   ];
   
+  
   // FEATURES SECTION
   export const FEATURES = [
     {
